@@ -97,38 +97,60 @@ dl.faq dt {
 dl.faq dd { margin: 0 40px 20px; }
 
 
-dl.persona { padding: 15px; }
+
+
+figure {  padding: 15px; }
+
 figcaption {
  font-size: 22px;
+ margin: 0 0 5px -15px;
  color: hsla( 194, 66.4%, 53.3%, 1 );
 }
 dl.persona dt {
  font-size: 18px;
  font-weight: normal;
- color: hsla( 0, 0.0%, 100.0%, 1 );
  padding: 10px;
+ color: hsla( 0, 0.0%, 100.0%, 1 );
+ border-top: 1px solid hsla( 0, 0.0%, 100.0%, 1 );
 }
 dl.persona dd {
  font-size: 16px;
  padding: 12px 10px;
  background-color: hsla( 0, 0.0%, 100.0%, 1 );
 }
-dl.persona div { border: 1px solid hsla( 0, 0.0%, 100.0%, 1 ); }
-
-#student-persona dl.persona div,
+dl.persona div { margin: 15px; }
+#student-persona div,
 #student-persona dl.persona dt {
  background-color: hsla( 120, 39.6%, 46.0%, 1 );
 }
 #student-persona img { border: 1px solid hsla( 120, 39.6%, 46.0%, 1 ); }
-#instructor-persona dl.persona div,
+
+#instructor-persona div,
 #instructor-persona dl.persona dt {
  background-color: hsla( 208, 55.9%, 44.5%, 1 );
 }
+
 #instructor-persona img { border: 1px solid hsla( 208, 55.9%, 44.5%, 1 ); }
-#guest-persona dl.persona div,
+#guest-persona div,
 #guest-persona dl.persona dt {
  background-color: hsla( 35, 84.5%, 54.3%, 1 );
 }
 #guest-persona img { border: 1px solid hsla( 35, 84.5%, 54.3%, 1 ); }
 
+
+
+
+dl.story-formats dt { font-weight: normal; }
+dl.story-formats dd { margin: 20px 40px; }
+
+b.generic-element,
+b.specific-element {
+ font-family: Georgia, "Times New Roman", Times, serif;
+ font-size: 107%;
+ font-weight: normal;
+ background-color: inherit;
+}
+
+b.generic-element { color: hsla( 2, 64.7%, 50.0%, 1 ); }
+b.specific-element { color: hsla( 120, 39.6%, 46.0%, 1 ); }
 
