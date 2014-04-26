@@ -224,19 +224,14 @@ body > footer {
   outline: 0;
 }
 
-
-/*  SOURCE
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus {
-  color: #262626;
-  text-decoration: none;
-  background-color: #f5f5f5;
+footer nav span.current-page {
+ font-weight: bold;
+ color: hsla( 2, 64.7%, 50.0%, 1 );
 }
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-  color: #fff;
-  text-decoration: none;
-  background-color: #428bca;
-  outline: 0;
-*/
+
+/* adjust the logo when on the homepage i.e. no link */
+.navbar-default span.navbar-brand,
+.navbar-default span.navbar-brand:hover,
+.navbar-default a.navbar-brand { color: hsla( 208, 55.9%, 44.5%, 1 ); }
+.navbar-default a.navbar-brand:hover { color: hsla( 194, 66.4%, 53.3%, 1 ); }
+
