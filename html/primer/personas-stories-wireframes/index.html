@@ -22,6 +22,13 @@
     <header role="banner">
 
       <!-- Static navbar - source: Bootstramp -->
+      <!-- TODO: MENU ITEM:
+            <span class="current-page" role="menuitem">[-LINK TITLE-]</span>
+          SUB-MENU ITEM:
+            <span class="current-sub-page" role="menuitem">The OSI Model</span>
+      -->
+
+
       <div class="navbar navbar-default navbar-static-top">
         <div class="container">
           <div class="navbar-header" role="navigation">
@@ -36,10 +43,7 @@
 
           <nav class="navbar-collapse collapse" role="navigation">
             <h2 class="sr-only">Site navigation</h2>
-
             <ul class="nav navbar-nav" role="menubar">
-              <li class="active" role="presentation"><a href="#" role="menuitem">Home</a></li>
-
               <li class="dropdown" role="presentation">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Setup<b class="caret"></b></a>
                 <ul class="dropdown-menu" role="presentation">
@@ -58,7 +62,7 @@
                   <!-- Lesson 7 --><li role="presentation"><a href="/primer/the-document-outline" role="menuitem">The Document Outline</a></li>
                   <!-- Lesson 8 --><li role="presentation"><a href="/primer/hypertext-and-http" role="menuitem">Hypertext and HTTP</a></li>
                   <!-- Lesson 9 --><li role="presentation"><a href="/primer/aria-and-roles" role="menuitem">ARIA and Roles</a></li>
-                  <!-- Lesson 10 --><li role="presentation"><a href="/primer/personas-stories-wireframes" role="menuitem">Personas, Job Stories and Wireframes</a></li>
+                  <!-- Lesson 10 --><li role="presentation"><span class="current-sub-page" role="menuitem">Personas, Job Stories and Wireframes</span></li>
                   <!-- Lesson 11 --><li role="presentation"><a href="/primer/architecting-the-page" role="menuitem">Architecting the Page</a></li>
                   <!-- Lesson 12 --><li role="presentation"><a href="/primer/pouring-in-the-content" role="menuitem">Pouring in the Content</a></li>
                   <!-- Lesson 13 --><li role="presentation"><a href="/primer/first-review" role="menuitem">First Review</a></li>
@@ -88,30 +92,18 @@
           <nav role="navigation">
             <h3 class="sr-only">Topic/page navigation</h3>
             <ol role="menu">
+
+              <!-- Lesson 3 --><li role="presentation"><a href="/primer/the-web-page" role="menuitem">The Web Page</a></li>
+              <!-- Lesson 4 --><li role="presentation"><a href="/primer/the-osi-model" role="menuitem">The OSI Model</a></li>
+              <!-- Lesson 5 --><li role="presentation"><a href="/primer/fundamentals-of-html" role="menuitem">The Fundamentals of HTML</a></li>
+              <!-- Lesson 6 --><li role="presentation"><a href="/primer/basic-page-structure" role="menuitem">Basic Page Structures in HTML</a></li>
+              <!-- Lesson 7 --><li role="presentation"><a href="/primer/the-document-outline" role="menuitem">The Document Outline</a></li>
+              <!-- Lesson 8 --><li role="presentation"><a href="/primer/hypertext-and-http" role="menuitem">Hypertext and HTTP</a></li>
+              <!-- Lesson 9 --><li role="presentation"><a href="/primer/aria-and-roles" role="menuitem">ARIA and Roles</a></li>
+              <!-- Lesson 10 -->
+
               <li role="presentation">
-                <a href="/primer/anatomy-of-a-web-page" role="menuitem">Anatomy of a Web page</a>
-              </li>
-              <li role="presentation">
-                <a href="/primer/the-osi-model" role="menuitem">The OSI model</a>
-              </li>
-              <li role="presentation">
-                <a href="/primer/fundamentals-of-html" role="menuitem">Fundamentals of HTML</a>
-              </li>
-              <li role="presentation">
-                <a href="/primer/basic-page-structure" role="menuitem">Basic page structure</a>
-              </li>
-              <li role="presentation">
-                <a href="/primer/the-document-outline" role="menuitem">The document outline</a>
-              </li>
-              <li role="presentation">
-                <a href="/primer/hypertext-and-http" role="menuitem">Hypertext and HTTP</a>
-              </li>
-              <li role="presentation">
-                <a href="/primer/aria-and-roles" role="menuitem">ARIA and roles</a>
-              </li>
-              <li role="presentation">
-                <div class="current-page" role="menuitem">Personas, etc.</div>
-                <div class="toc-header">On this page:</div>
+                <div class="current-page" role="menuitem">Personas, Job Stories, Wireframes</div>
                 <ol role="menu">
                   <li role="presentation">
                     <a href="#lesson-objectives" role="menuitem">Lesson objectives</a>
@@ -173,15 +165,16 @@
                   </li>
                 </ol>
               </li>
-              <li role="presentation">
-                <a href="/primer/architecting-the-page" role="menuitem">Architecting the page</a>
-              </li>
-              <li role="presentation">
-                <a href="/primer/pouring-in-the-content" role="menuitem">Pouring in the content</a>
-              </li>
-              <li role="presentation">
-                <a href="/primer/first-review" role="menuitem">First review</a>
-              </li>
+
+              <!-- Lesson 11 --><li role="presentation"><a href="/primer/architecting-the-page" role="menuitem">Architecting the Page</a></li>
+              <!-- Lesson 12 --><li role="presentation"><a href="/primer/pouring-in-the-content" role="menuitem">Pouring in the Content</a></li>
+              <!-- Lesson 13 --><li role="presentation"><a href="/primer/first-review" role="menuitem">First Review</a></li>
+              <!-- Lesson 14 --><li role="presentation"><a href="/primer/from-page-to-site" role="menuitem">From Page to Site</a></li>
+              <!-- Lesson 15 --><li role="presentation"><a href="/primer/adding-bootstrap" role="menuitem">Adding Twitter Bootstrap</a></li>
+              <!-- Lesson 16 --><li role="presentation"><a href="/primer/mostly-color" role="menuitem">Mostly Color</a></li>
+              <!-- Lesson 17 --><li role="presentation"><a href="/primer/styling-the-page" role="menuitem">Styling the Page</a></li>
+              <!-- Lesson 18 --><li role="presentation"><a href="/primer/making-page-templates" role="menuitem">Making Page Templates</a></li>
+              <!-- Lesson 12 --><li role="presentation"><a href="/primer/reviewing-site-usability" role="menuitem">Reviewing the Site Usability</a></li>
             </ol>
           </nav>
         </aside>

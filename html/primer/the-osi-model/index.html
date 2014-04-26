@@ -1,12 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>The OSI Model</title>
-</head>
-<body>
-  <main>
-    <p>The OSI Model</p>
-  </main>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <!-- TODO: Add article title and description -->
+    <title>The OSI Model :: The Web Developer Handbook</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="[-DESCRIPTION-}">
+    <meta name="author" content="Charles F. Munat">
+    <link rel="stylesheet" href="/css/bootstrap.css" media="all">
+    <link rel="stylesheet" href="/css/bootstrap-theme.css" media="all">
+    <link rel="stylesheet" href="/css/main.css" media="all">
+
+    <!--[if lt IE 9]>
+     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></
+    script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <header role="banner">
+      <!-- TODO: Add or remove placeholders a necessary -->
+      <!-- TODO: MENU ITEM:
+            <span class="current-page" role="menuitem">[-LINK TITLE-]</span>
+          SUB-MENU ITEM:
+            <span class="current-sub-page" role="menuitem">The OSI Model</span>
+      -->
+      <!-- Static navbar - source: Bootstramp -->
+      <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="navbar-header" role="navigation">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <h1><a class="navbar-brand" href="/">The Web Developer Handbook</a></h1>
+          </div>
+
+          <nav class="navbar-collapse collapse" role="navigation">
+            <h2 class="sr-only">Site navigation</h2>
+            <ul class="nav navbar-nav" role="menubar">
+              <li class="dropdown" role="presentation">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Setup<b class="caret"></b></a>
+                <ul class="dropdown-menu" role="presentation">
+                  <!-- Lesson 1 --><li role="presentation"><a href="/setup/virtual-appliance" role="menuitem">Virtual Appliance</a></li>
+                  <!-- Lesson 2 --><li role="presentation"><a href="/setup/git-and-github" role="menuitem">Git and Github</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown" role="presentation">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Primer<b class="caret"></b></a>
+                <ul class="dropdown-menu" role="presentation">
+                  <!-- Lesson 3 --><li role="presentation"><a href="/primer/the-web-page" role="menuitem">The Web Page</a></li>
+
+                  <!-- Lesson 4 --><li role="presentation"><span class="current-sub-page" role="menuitem">The OSI Model</span></li>
+
+                  <!-- Lesson 5 --><li role="presentation"><a href="/primer/fundamentals-of-html" role="menuitem">The Fundamentals of HTML</a></li>
+                  <!-- Lesson 6 --><li role="presentation"><a href="/primer/basic-page-structure" role="menuitem">Basic Page Structures in HTML</a></li>
+                  <!-- Lesson 7 --><li role="presentation"><a href="/primer/the-document-outline" role="menuitem">The Document Outline</a></li>
+                  <!-- Lesson 8 --><li role="presentation"><a href="/primer/hypertext-and-http" role="menuitem">Hypertext and HTTP</a></li>
+                  <!-- Lesson 9 --><li role="presentation"><a href="/primer/aria-and-roles" role="menuitem">ARIA and Roles</a></li>
+                  <!-- Lesson 10 --><li role="presentation"><a href="/primer/personas-stories-wireframes" role="menuitem">Personas, Job Stories and Wireframes</a></li>
+                  <!-- Lesson 11 --><li role="presentation"><a href="/primer/architecting-the-page" role="menuitem">Architecting the Page</a></li>
+                  <!-- Lesson 12 --><li role="presentation"><a href="/primer/pouring-in-the-content" role="menuitem">Pouring in the Content</a></li>
+                  <!-- Lesson 13 --><li role="presentation"><a href="/primer/first-review" role="menuitem">First Review</a></li>
+                  <!-- Lesson 14 --><li role="presentation"><a href="/primer/from-page-to-site" role="menuitem">From Page to Site</a></li>
+                  <!-- Lesson 15 --><li role="presentation"><a href="/primer/adding-bootstrap" role="menuitem">Adding Twitter Bootstrap</a></li>
+                  <!-- Lesson 16 --><li role="presentation"><a href="/primer/mostly-color" role="menuitem">Mostly Color</a></li>
+                  <!-- Lesson 17 --><li role="presentation"><a href="/primer/styling-the-page" role="menuitem">Styling the Page</a></li>
+                  <!-- Lesson 18 --><li role="presentation"><a href="/primer/making-page-templates" role="menuitem">Making Page Templates</a></li>
+                  <!-- Lesson 12 --><li role="presentation"><a href="/primer/reviewing-site-usability" role="menuitem">Reviewing the Site Usability</a></li>
+                </ul>
+              </li>
+
+              <li role="presentation"><a href="/about-us" role="menuitem">About Us</a></li>
+              <li role="presentation"><a href="/contact-us" role="menuitem">Contact</a></li>
+            </ul>
+          </nav><!--/.nav-collapse -->
+
+        </div>
+      </div>
+
+    </header>
+
+    <main role="main" class="container">
+      <div class="row">
+        <aside id="sidebar" class="col-md-3 sidebar-nav">
+          <h2 class="sr-only">Sidebar</h2>
+          <nav role="navigation">
+            <h3 class="sr-only">Topic/page navigation</h3>
+            <ol role="menu">
+
+              <!-- Lesson 3 --><li role="presentation"><a href="/primer/the-web-page" role="menuitem">The Web Page</a></li>
+              <!-- Lesson 4 -->
+              <!-- TODO: Add links to page sections and subsections -->
+              <li role="presentation">
+                <div class="current-page" role="menuitem">The OSI Model</div>
+                <ol role="menu">
+                  <li role="presentation">
+                    <a href="#[-ANCHOR-ID-]" role="menuitem">[-PAGE SECTION-]</a>
+                  </li>
+                  <li role="presentation">
+                    <a href="#[-ANCHOR-ID-]" role="menuitem">[-SECTION TITLE-]</a>
+                    <ol role="menu">
+                      <li role="presentation">
+                        <a href="#[-ANCHOR-ID-]" role="menuitem">[-PAGE SUBSECTION-]</a>
+                      </li>
+                      <li role="presentation">
+                        <a href="#[-ANCHOR-ID-]" role="menuitem">[-PAGE SUBSECTION-]</a>
+                      </li>
+                    </ol>
+                  </li>
+                </ol>
+              </li>
+
+              <!-- Lesson 5 --><li role="presentation"><a href="/primer/fundamentals-of-html" role="menuitem">The Fundamentals of HTML</a></li>
+              <!-- Lesson 6 --><li role="presentation"><a href="/primer/basic-page-structure" role="menuitem">Basic Page Structures in HTML</a></li>
+              <!-- Lesson 7 --><li role="presentation"><a href="/primer/the-document-outline" role="menuitem">The Document Outline</a></li>
+              <!-- Lesson 8 --><li role="presentation"><a href="/primer/hypertext-and-http" role="menuitem">Hypertext and HTTP</a></li>
+              <!-- Lesson 9 --><li role="presentation"><a href="/primer/aria-and-roles" role="menuitem">ARIA and Roles</a></li>
+              <!-- Lesson 10 --><li role="presentation"><a href="/primer/personas-stories-wireframes" role="menuitem">Personas, Job Stories, Wireframes</a></li>
+              <!-- Lesson 11 --><li role="presentation"><a href="/primer/architecting-the-page" role="menuitem">Architecting the Page</a></li>
+              <!-- Lesson 12 --><li role="presentation"><a href="/primer/pouring-in-the-content" role="menuitem">Pouring in the Content</a></li>
+              <!-- Lesson 13 --><li role="presentation"><a href="/primer/first-review" role="menuitem">First Review</a></li>
+              <!-- Lesson 14 --><li role="presentation"><a href="/primer/from-page-to-site" role="menuitem">From Page to Site</a></li>
+              <!-- Lesson 15 --><li role="presentation"><a href="/primer/adding-bootstrap" role="menuitem">Adding Twitter Bootstrap</a></li>
+              <!-- Lesson 16 --><li role="presentation"><a href="/primer/mostly-color" role="menuitem">Mostly Color</a></li>
+              <!-- Lesson 17 --><li role="presentation"><a href="/primer/styling-the-page" role="menuitem">Styling the Page</a></li>
+              <!-- Lesson 18 --><li role="presentation"><a href="/primer/making-page-templates" role="menuitem">Making Page Templates</a></li>
+              <!-- Lesson 12 --><li role="presentation"><a href="/primer/reviewing-site-usability" role="menuitem">Reviewing the Site Usability</a></li>
+
+            </ol>
+          </nav>
+        </aside>
+
+
+        <article id="lesson" class="col-md-9">
+          <!-- TODO: Add lesson title and lesson objectives -->
+          <header>
+            <h2 class="lesson-title"><span class="sr-only">Lesson: </span>The OSI Model</h2>
+          </header>
+          <section id="lesson-objectives">
+            <h3>Lesson objectives</h3>
+            <ul class="objectives">
+              <li>[-LESSON OBJECTIVES-]</li>
+            </ul>
+          </section>
+
+          <!-- TODO: Add introductory material and all sections as needed -->
+          <section id="introductory-material">
+            <h3>Introductory material</h3>
+            <p>
+            [-INTRODUCTORY MATERIAL-]
+            </p>
+          </section>
+
+          <section id="[-SECTION ID-]">
+            <h3>[-SECTION TITLE-]</h3>
+            <p>
+            [-SECTION CONTENT-]
+            </p>
+          </section>
+
+
+          <footer role="presentation">
+            <!-- TODO: Add measures of success -->
+            <section id="success-measures" class="measures">
+              <h4>Measuring successful lesson completion</h4>
+              <p>[-INTRODUCTORY TEXT-]</p>
+              <ul class="measures">
+                <li>
+                  [-MEASURE OF SUCCESS-]
+                </li>
+              </ul>
+            </section>
+
+            <!-- TODO: Add frequently asqued questions -->
+            <section id="lesson-faq">
+              <h4>Frequently asked questions</h4>
+              <dl class="faq">
+                <dt>
+                  [-QUESTION-]
+                </dt>
+                <dd>
+                  [-ANSWER-]
+                </dd>
+              </dl>
+            </section>
+
+            <!-- TODO: Add additional resources -->
+            <section id="additional-resources">
+              <h4>Additional resources</h4>
+              <ul class="resources">
+                <li>
+                  <a href="[-RESOURCE URL-]" title="[-RESOURCE DESCRIPTION-]">[-RESOURCE TITLE-]</a>
+                </li>
+              </ul>
+            </section>
+          </footer>
+        </article>
+      </div>
+    </main>
+
+    <footer class="container">
+      <div class="row">
+
+        <section id="copyright" class="col-md-3">
+          <h2 class="sr-only">Copyright</h2>
+          <!-- site copyright here -->
+          <p id="site-license">
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+            <img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/4.0/88x31.png">
+            </a>
+          </p>
+          <p class="the-fine-print">
+            <cite>The Web Developer Handbook</cite>
+            <br>
+            by Charles F. Munat is licensed under a<br>
+            <a href="http://creativecommons.org/licenses/by-sa/4.0/">
+            Creative Commons Attribution-ShareAlike 4.0 International License</a>
+            <br>
+            and is based on a work at<br>
+            <a href="https://github.com/chasm/handbook">https://github.com/chasm/handbook</a>.
+          </p>
+        </section>
+
+        <!-- TODO: Add placeholder if necessary -->
+        <nav id="site-map" role="navigation" class="col-md-6">
+          <h2 class="sr-only">Site map</h2>
+          <div class="row">
+              <ul role="menu">
+                <li role="presentation" class="col-md-4">
+                  <a href="/setup" role="menuitem"
+                    title="Instructions to be carried out before beginning the primer"
+                    >Setup</a>
+                </li>
+                <li role="presentation" class="col-md-4">
+                  <a href="/about-us" role="menuitem"
+                    title="Information about Charles F. Munat and how this book came about"
+                    >About us</a>
+                </li>
+                <li role="presentation" class="col-md-4">
+                  <a href="/terms-of-use" role="menuitem"
+                    title="The legal disclaimer users agree to when using this website"
+                    >Terms of use</a>
+                </li>
+                <li role="presentation" class="col-md-4">
+                  <a href="/primer" role="menuitem"
+                    title="The primer: lessons for developing state-of-the-art websites"
+                    >Primer</a>
+                </li>
+                <li role="presentation" class="col-md-4">
+                  <a href="/contact-us" role="menuitem"
+                    title="How to contact the author of The Web Developer Handbook"
+                    >Contact us</a>
+                </li>
+                <li role="presentation" class="col-md-4">
+                  <a href="/privacy-policy" role="menuitem"
+                    title="The privacy policy for The Web Developer Handbook site"
+                    >Privacy policy</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        <section id="contact" class="col-md-3">
+            <h2 class="sr-only">Contact info</h2>
+              <p>Contact me via Gmail at<br>
+              Charles [.] Munat</p>
+          <!-- contact info here -->
+        </section>
+      </div>
+    </footer>
+
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/main.js"></script>
+  </body>
 </html>
