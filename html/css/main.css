@@ -182,7 +182,7 @@ body > footer {
 }
 
 
-/* Setting the 'current page' button in menubar */
+
 
 .nav > li > span.current-page {
   position: relative;
@@ -208,7 +208,7 @@ body > footer {
   color: hsla(0, 0%, 0%, 1);
 }
 
-/* setting the properties for current page on sub-menu */
+
 
 .dropdown-menu > li > span.current-sub-page {
   display: block;
@@ -229,9 +229,44 @@ footer nav span.current-page {
  color: hsla( 2, 64.7%, 50.0%, 1 );
 }
 
-/* adjust the logo when on the homepage i.e. no link */
+
 .navbar-default span.navbar-brand,
 .navbar-default span.navbar-brand:hover,
 .navbar-default a.navbar-brand { color: hsla( 208, 55.9%, 44.5%, 1 ); }
 .navbar-default a.navbar-brand:hover { color: hsla( 194, 66.4%, 53.3%, 1 ); }
+
+
+
+.breadcrumb-trail {
+ font-size: 14px;
+ margin-top: 13px;
+ color: hsla( 0, 0.0%, 60.0%, 1 );
+}
+aside.sidebar-nav {
+ padding-top: 10px;
+ background-color: hsla( 0, 0.0%, 98.0%, 1 );
+}
+h2.lesson-title {
+ margin-top: 10px;
+}
+
+
+
+h2.page-title,
+h2.lesson-title {
+ color: hsla( 0, 0.0%, 100.0%, 1 );
+}
+h2.page-title { background-color: hsla( 120, 39.6%, 46.0%, 1 ); }
+h2.lesson-title { background-color: hsla( 208, 55.9%, 44.5%, 1 ); }
+
+.toc-header {
+ font-size: 14px;
+ color: hsla( 60, 0.0%, 60.0%, 1 );
+}
+
+aside.sidebar-nav a:visited { color: hsla( 240, 15.0%, 30.0%, 1 ); }
+aside.sidebar-nav a:visited:hover,
+aside.sidebar-nav a:visited:focus { color: hsla( 208, 56.3%, 37.6%, 1 ); }
+
+
 
